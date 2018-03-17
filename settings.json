@@ -1,0 +1,33 @@
+{
+	"telegram": {
+		"auth": {
+			"token": "571740115:AAELLTnRKo7nOaO-fHbKGj3Xi2VtXc2EQ1U"
+		},
+		"useFirstNameInsteadOfUsername": false,
+		"commaAfterSenderName": false,
+		"colonAfterSenderName": false,
+		"skipOldMessages": true,
+		"sendEmojiWithStickers": true
+	},
+	"discord": {
+		"auth": {
+			"token": "NDI0NjYyODg2NDMxMDY0MDg4.DY8Jpg.pvZf4bK6PoAu-bEflzhPDjX6Evs"
+		},
+		"skipOldMessages": true
+	},
+	"bridges": [
+		{
+			"name": "Default bridge",
+			"telegram": {
+				"chatId": "-1001388083789",
+				"relayJoinLeaveMessages": true
+			},
+			"discord": {
+				"serverId": "264492430974255104",
+				"channelId": "424664366596751367",
+				"relayJoinLeaveMessages": true
+			}
+		}
+	],
+	"debug": false
+}
